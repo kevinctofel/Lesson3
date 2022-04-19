@@ -1,3 +1,5 @@
+Source: https://launchschool.com/lessons/0206c7f9/assignments/6de38fb9
+
 Q1: No because arrays are expandable in JS.
 Q1 Bonus: Undefined because there's no data for this element.
 
