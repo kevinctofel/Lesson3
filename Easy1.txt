@@ -1,0 +1,27 @@
+Q1: No because arrays are expandable in JS.
+Q1 Bonus: Undefined because there's no data for this element.
+
+Q2: string.indexOf('!') === string[string.length - 1]
+    OR
+    string.charAt(string.length - 1) === '!'
+    OR
+    string.endsWith('!')
+
+Q3: ages.hasOwnProperty('Spot');
+
+Q4: munsters = munstersDescription.charAt(0).toUpperCase() + munstersDescription.slice(1).toLowerCase(); // May not be 100% correct.
+    OR
+    munsters = munstersDescription.charAt(0).toUpperCase() + munstersDescription.substring(1).toLowerCase(); // LS solution
+
+Q5: True and false
+
+Q6: Object.assign(ages, additionalAges);
+
+Q7: str1.includes('Dino');
+    str2.includes('Dino');
+
+Q8: flintstones.push("Dino");
+
+Q9: flintstones.push("Dino", "Hoppy");
+
+Q10: 
