@@ -24,4 +24,4 @@ Q8: flintstones.push("Dino");
 
 Q9: flintstones.push("Dino", "Hoppy");
 
-Q10: 
+Q10: advice.slice(0, advice.indexOf('house'));
