@@ -1,6 +1,8 @@
-let munstersDescription = "the Munsters are CREEPY and Spooky.";
-// => The munsters are creepy and spooky.
+// Write a one-line expression to count the number of lower-case t characters in
+// each of the following strings:
 
-munsters = munstersDescription.charAt(0).toUpperCase() + munstersDescription.slice(1).toLowerCase();
+let statement1 = "The Flintstones Rock!";
+let statement2 = "Easy come, easy go.";
 
-console.log(munsters);
+console.log(statement1.split('').filter(letter => letter === 't').length);
+console.log(statement2.split('').filter(letter => letter === 't').length);

@@ -1,3 +1,30 @@
 Source: https://launchschool.com/lessons/0206c7f9/assignments/bb21fab7
 
-Q1: 
+Q1: console.log(advice.replace('important', 'urgent'));
+
+Q2: 
+
+Q3: 
+
+Q4:
+
+Q5: numbers.splice(2, 1);
+
+Q6: flintstones.flat();
+
+Q7: for (const [key, value] of Object.entries(flintstones)) {
+        if (key === 'Barney') {
+            newArray.push(key);
+            newArray.push(value);
+        }
+    } (my answer)
+
+Q7: Object.entries(flintstones).filter(pair => pair[0] === "Barney").shift(); (LS answer)
+
+Q8: console.log(Array.isArray(numbers))
+    console.log(Array.isArray(table));
+
+Q9: let padAmount = Math.floor((40-title.length)/2);
+    console.log(title.padStart(padAmount + title.length));
+
+Q10: statement1.split('').filter(letter => letter === 't').length)
