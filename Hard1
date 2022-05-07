@@ -1,0 +1,9 @@
+Source: https://launchschool.com/lessons/0206c7f9/assignments/59c055ee
+
+Q1: No because JS will insert a semi-colon after the return in the second function, which returns undefined.
+
+Q2: { first: [ 1, 2 ] } because of pass by reference; numArray references the array in the object.
+
+Q3 A: one, two, three because of scope
+   B: same as A
+   C: two, three, one because splice changes the array
