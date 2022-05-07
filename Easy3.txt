@@ -1,0 +1,23 @@
+Source: https://launchschool.com/lessons/0206c7f9/assignments/da7ec933
+
+Q1: while (numbers.length > 0) {
+        numbers.shift();
+    }
+
+    numbers = [];
+
+    while (numbers.length > 0) {
+        numbers.pop();
+    }
+
+Q2: 1, 2, 34, 5 because JS converts arrays into strings
+    and then concatenates.
+
+Q3: hello there because we're dealing with immutable strings
+
+Q4: [ { first: 42 }, { second: "value2" }, 3, 4, 5 ] because
+    slice makes a shallow copy of the arrays and they point to the same object in memory
+
+Q5: return (color === 'blue') 
+    OR
+    return (color === 'blue' || color === 'green');

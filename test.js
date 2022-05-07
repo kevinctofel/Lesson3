@@ -1,8 +1,13 @@
-// Write a one-line expression to count the number of lower-case t characters in
-// each of the following strings:
+// rewrite this function so it only has one return statement and does not explicitly use either true or false?
 
-let statement1 = "The Flintstones Rock!";
-let statement2 = "Easy come, easy go.";
+function isColorValid(color) {
+    // if (color === "blue" || color === "green") {
+    //   return true;
+    // } else {
+    //   return false;
+    // }
 
-console.log(statement1.split('').filter(letter => letter === 't').length);
-console.log(statement2.split('').filter(letter => letter === 't').length);
+   return (color === 'blue')
+  }
+
+  console.log(isColorValid("blue"));
