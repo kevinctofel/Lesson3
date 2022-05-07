@@ -1,0 +1,46 @@
+Source: https://launchschool.com/lessons/0206c7f9/assignments/e4fb9aaf
+
+Q1: const str = 'The Flintstones Rock!'; 
+
+    for (let i = 0; i < 10; i++) {
+        console.log(str.padStart(str.length + i));
+    }
+
+Q2: str = (munstersDescription.split('').map(char => {
+    if (char === char.toUpperCase()) {
+            return char.toLowerCase();
+        } else {
+            return char.toUpperCase();
+        }
+    })).join("");
+
+Q3: if (number <= 0) {
+        return ("Can't solve for zero or less than zero.");
+    } else {
+        for (let i = divisor; i > 0; i--) {
+            if (number % i === 0) {
+                factors.push( number / i);
+            }
+        }
+    }
+    OR 
+    while (divisor > 0) {
+        if (number % divisor === 0) {
+            factors.push(number / divisor);
+        }
+        divisor -= 1;
+    }
+
+Q4: I would choose push() because it mutates the orignal array. Concat() will return a new array.
+
+Q5: .088888889 and false because of floating point precision.
+
+Q6: false
+
+Q7: 34
+
+Q8: Yes because objects are passed by reference, so this code will change values in the object.
+
+Q9: paper
+
+Q10: no
