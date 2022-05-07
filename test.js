@@ -1,13 +1,12 @@
-// rewrite this function so it only has one return statement and does not explicitly use either true or false?
+// 
 
-function isColorValid(color) {
-    // if (color === "blue" || color === "green") {
-    //   return true;
-    // } else {
-    //   return false;
-    // }
-
-   return (color === 'blue')
+function foo(param = "no") {
+    return "yes";
+  }
+  
+  function bar(param = "no") {
+    return param === "no" ? "yes" : "no";
   }
 
-  console.log(isColorValid("blue"));
+  console.log(bar(foo()));
+  
